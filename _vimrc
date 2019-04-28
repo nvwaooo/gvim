@@ -39,6 +39,7 @@ endfunction
 
 " General {{{
 set nocompatible
+set noundofile
 set nobackup
 set noswapfile
 set history=1024
@@ -63,6 +64,9 @@ let $LANG = 'en_US.UTF-8'
 
 " GUI {{{
 "colorscheme Tomorrow-Night
+syntax enable
+set background=dark
+colorscheme solarized
 
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
